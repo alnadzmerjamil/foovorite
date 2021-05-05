@@ -1,3 +1,6 @@
+
+It's a food delivery app I named it foovorite because I want to flex it and become favorite food delivery app in our province as it is hopefully the first online service to be implemented in the province.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
