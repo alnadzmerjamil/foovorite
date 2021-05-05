@@ -1,0 +1,128 @@
+.mini-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.sign-up {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(224, 223, 223);
+}
+.reg-container {
+    width: 90%;
+}
+.frm-registraton {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 3px;
+}
+.frm-login {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 10px;
+}
+.mt-4 {
+    width: 100%;
+    padding: 5px;
+}
+.mt-4-div-registration-btn {
+    margin-top: 20px;
+    width: 100%;
+}
+.mt-4-login {
+    width: 100%;
+    padding: 5px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .reg-container {
+        width: 80%;
+        margin: auto;
+    }
+    .mini-container {
+        width: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+        background-color: whitesmoke;
+    }
+    .frm-registraton {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+        border-radius: 3px;
+        background-color: whitesmoke;
+    }
+    .frm-login {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px 10px;
+    }
+    .mt-4 {
+        width: 50%;
+        padding: 5px;
+    }
+    .mt-4-div-registration-btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .mt-4-login {
+        width: 100%;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .reg-container {
+        width: 40%;
+        margin: auto;
+    }
+    .mini-container {
+        width: 100%;
+    }
+
+    .frm-registraton {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+        background-color: whitesmoke;
+    }
+    .frm-login {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px 10px;
+    }
+    .mt-4 {
+        width: 50%;
+        padding: 5px;
+    }
+    .mt-4-div-registration-btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .mt-4-login {
+        width: 100%;
+        padding: 5px;
+    }
+}

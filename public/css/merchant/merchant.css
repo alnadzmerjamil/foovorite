@@ -1,0 +1,433 @@
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+#order-text {
+    padding: 20px;
+    font-size: 15px;
+    color: #92e297;
+}
+.mini-container {
+    width: 100%;
+    padding: 10px;
+}
+.div-for-display-orders {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.div-group-order {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+}
+.div-per-order-container {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #cff4d2;
+}
+.div-per-order {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-for-img-order {
+    width: 49%;
+    position: relative;
+}
+.img-order {
+    width: 100%;
+    height: 100px;
+    border: solid 1px green;
+    border-radius: 5px;
+}
+.div-order-details {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e5fae7;
+}
+.div-order-description p {
+    font-size: 12px;
+    color: green;
+}
+.div-option {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    line-height: 20px;
+    display: none;
+    /* background-color: cadetblue; */
+}
+.div-option p {
+    font-size: 12px;
+}
+.div-order-details {
+    width: 49.5%;
+}
+.div-resto-name-order {
+    width: 100%;
+}
+.div-accept-btn {
+    width: 100%;
+    text-align: right;
+    margin-top: 5px;
+}
+.accept-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #7ac480;
+}
+
+.accept-btn:hover {
+    background-color: #94cf99;
+}
+
+/* MODAL */
+.div-for-modal {
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    background-color: rgba(184, 224, 187, 0.5);
+}
+.div-modal {
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #82e289;
+}
+.lbl-store-id {
+    font-size: 20px;
+    padding: 10px 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: gray;
+}
+.ipt-store-id {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px 5px;
+    color: gray;
+}
+.div-enter {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#enter-btn,
+#cancel-btn {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: lightgray;
+    background-color: rgb(103, 143, 143);
+}
+#enter-btn:hover,
+#cancel-btn:hover {
+    background-color: rgb(102, 124, 117);
+}
+
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #order-text {
+        padding: 20px;
+        font-size: 20px;
+        color: #92e297;
+    }
+    .mini-container {
+        width: 100%;
+        padding: 10px;
+    }
+    .div-for-display-orders {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .div-group-order {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .div-per-order-container {
+        width: 49.5%;
+        padding: 10px;
+    }
+    .div-per-order {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div-for-img-order {
+        width: 49%;
+        position: relative;
+        /* background-color: burlywood; */
+    }
+    .img-order {
+        width: 100%;
+        height: 100px;
+        border: solid 1px green;
+        border-radius: 5px;
+    }
+    .div-order-details {
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .div-order-description p {
+        font-size: 14px;
+    }
+    .div-option {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 5px;
+        line-height: 20px;
+        display: none;
+        /* background-color: cadetblue; */
+    }
+    .div-option p {
+        font-size: 12px;
+    }
+    .div-order-details {
+        width: 49.5%;
+    }
+    .div-resto-name-order {
+        width: 100%;
+    }
+    .div-accept-btn {
+        width: 100%;
+        text-align: right;
+    }
+    .accept-btn {
+        padding: 5px 10px;
+        font-size: 14px;
+        background-color: #7ac480;
+    }
+
+    /* MODAL */
+    .div-for-modal {
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        background-color: rgba(184, 224, 187, 0.5);
+    }
+    .div-modal {
+        width: 25%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #82e289;
+    }
+    .lbl-store-id {
+        font-size: 20px;
+        padding: 10px 5px;
+        display: inline-block;
+        margin-bottom: 10px;
+        color: gray;
+    }
+    .ipt-store-id {
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding: 10px 5px;
+        color: gray;
+    }
+    .div-enter {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #enter-btn,
+    #cancel-btn {
+        font-size: 14px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: lightgray;
+        background-color: rgb(103, 143, 143);
+    }
+    #enter-btn:hover,
+    #cancel-btn:hover {
+        background-color: rgb(102, 124, 117);
+    }
+}
+
+/* pc */
+@media only screen and (min-width: 992px) {
+    #order-text {
+        padding: 20px;
+        font-size: 20px;
+        color: #92e297;
+    }
+    .mini-container {
+        width: 100%;
+        padding: 10px;
+    }
+    .div-for-display-orders {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .div-group-order {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .div-per-order-container {
+        width: 25%;
+        padding: 10px;
+        padding: 5px;
+        background-color: white;
+    }
+    .div-per-order {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #cff4d2;
+    }
+    .div-for-img-order {
+        width: 49%;
+        position: relative;
+        /* background-color: burlywood; */
+    }
+    .img-order {
+        width: 100%;
+        height: 100px;
+        border: solid 1px green;
+        border-radius: 10px;
+    }
+    .div-order-details {
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #e5fae7;
+    }
+    .div-option {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 5px;
+        line-height: 20px;
+        display: none;
+        /* background-color: cadetblue; */
+    }
+    .div-option p {
+        font-size: 12px;
+    }
+    .div-order-details {
+        width: 49.5%;
+    }
+    .div-resto-name-order {
+        width: 100%;
+    }
+    .div-accept-btn {
+        width: 100%;
+
+        text-align: right;
+    }
+    .accept-btn {
+        padding: 5px 10px;
+        background-color: #7ac480;
+    }
+
+    .accept-btn:hover {
+        background-color: #94cf99;
+    }
+
+    /* MODAL */
+    .div-for-modal {
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        background-color: rgba(184, 224, 187, 0.5);
+    }
+    .div-modal {
+        width: 25%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #82e289;
+    }
+    .lbl-store-id {
+        font-size: 20px;
+        padding: 10px 5px;
+        display: inline-block;
+        margin-bottom: 10px;
+        color: gray;
+    }
+    .ipt-store-id {
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding: 10px 5px;
+        color: gray;
+    }
+    .div-enter {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #enter-btn,
+    #cancel-btn {
+        font-size: 14px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: lightgray;
+        background-color: rgb(103, 143, 143);
+    }
+    #enter-btn:hover,
+    #cancel-btn:hover {
+        background-color: rgb(102, 124, 117);
+    }
+}

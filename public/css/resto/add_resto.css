@@ -1,0 +1,229 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5px;
+    margin: auto;
+    background-color: white;
+}
+.mini-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid lightgray;
+    border-top: none;
+    background-color: whitesmoke;
+}
+h1 {
+    padding: 15px 0;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid gray;
+    border-bottom: none;
+    background-color: lightgray;
+}
+
+/* DIVISION */
+.div-for-input {
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid white; */
+}
+.lbl-resto-name,
+.lbl-resto-add {
+    margin-left: 5px;
+}
+.div-input,
+.div-save-btn {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    /* background-color: lightcyan; */
+}
+.ipt-resto-name,
+.ipt-resto-add {
+    padding: 5px;
+    width: 100%;
+}
+.div-save-btn {
+    text-align: right;
+}
+.save-btn {
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(29, 57, 216);
+}
+
+/* DIVISION */
+.div-for-display-all-resto {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+}
+.div-all-resto-text {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    background-color: lightgray;
+}
+.div-per-resto {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.span-resto {
+    display: block;
+    padding: 5px 0;
+    font-size: 15px;
+    color: rgb(160, 119, 7);
+}
+.sml-resto-add {
+    font-size: 12px;
+}
+
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    main {
+        width: 100%;
+        min-height: 100vh;
+        padding: 10px;
+        margin: auto;
+        background-color: white;
+    }
+    .mini-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: whitesmoke;
+    }
+
+    /* DIVISION */
+    .div-for-input {
+        width: 49.5%;
+        padding: 10px;
+        /* border: 1px solid white; */
+    }
+    .lbl-resto-name,
+    .lbl-resto-add {
+        margin-left: 5px;
+    }
+    .div-input,
+    .div-save-btn {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        /* background-color: lightcyan; */
+    }
+    .ipt-resto-name,
+    .ipt-resto-add {
+        padding: 5px;
+    }
+    .save-btn {
+        padding: 5px 10px;
+    }
+
+    /* DIVISION */
+    .div-for-display-all-resto {
+        width: 49.5%;
+        padding: 10px;
+        border: 1px solid white;
+    }
+    .div-all-resto-text {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        margin-bottom: 10px;
+    }
+    .div-per-resto {
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: lightgray;
+    }
+    .span-resto {
+        display: block;
+        padding: 5px 0;
+    }
+    .sml-resto-add {
+        font-size: 12px;
+    }
+}
+
+/* pc */
+@media only screen and (min-width: 992px) {
+    main {
+        width: 100%;
+        min-height: 100vh;
+        padding: 10px;
+        margin: auto;
+        background-color: white;
+    }
+    .mini-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: whitesmoke;
+    }
+
+    /* DIVISION */
+    .div-for-input {
+        width: 49.5%;
+        padding: 10px;
+        /* border: 1px solid white; */
+    }
+    .lbl-resto-name,
+    .lbl-resto-add {
+        margin-left: 5px;
+    }
+    .div-input,
+    .div-save-btn {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        /* background-color: lightcyan; */
+    }
+    .ipt-resto-name,
+    .ipt-resto-add {
+        padding: 5px;
+    }
+    .save-btn {
+        padding: 5px 10px;
+    }
+
+    /* DIVISION */
+    .div-for-display-all-resto {
+        width: 49.5%;
+        padding: 10px;
+        border: 1px solid white;
+    }
+    .div-all-resto-text {
+        width: 100%;
+        padding: 5px 0;
+        margin-bottom: 10px;
+    }
+    .div-per-resto {
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: lightgray;
+    }
+    .span-resto {
+        display: block;
+        padding: 5px 0;
+    }
+    .sml-resto-add {
+        font-size: 12px;
+    }
+}

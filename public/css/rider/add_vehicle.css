@@ -1,0 +1,184 @@
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+}
+h2 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.div-mini-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+}
+.div-for-add-vehicle {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.divs {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    /* background-color: lightcyan; */
+}
+label,
+.div-input,
+input {
+    width: 100%;
+    padding: 5px;
+}
+input {
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+input:focus {
+    border: 1px solid rgb(85, 78, 184);
+    box-shadow: 0 0px 1px 1.5px rgb(175, 179, 243);
+}
+.div-save {
+    width: 100%;
+    padding: 5px;
+    text-align: right;
+}
+
+.save-btn,
+.cancel-btn {
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(52, 97, 245);
+}
+.save-btn {
+    margin-left: 5px;
+}
+
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .div-mini-container {
+        width: 65%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 10px;
+        border-radius: 10px;
+        /* background-color: gray; */
+        border: 1px solid lightgray;
+    }
+    .div-for-add-vehicle {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .divs {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        /* background-color: lightcyan; */
+    }
+    label,
+    .div-input,
+    input {
+        width: 100%;
+        padding: 5px;
+    }
+    input {
+        border-radius: 5px;
+        border: 1px solid lightgray;
+    }
+    input:focus {
+        border: 1px solid rgb(85, 78, 184);
+        box-shadow: 0 0px 1px 1.5px rgb(175, 179, 243);
+    }
+    .div-save {
+        width: 100%;
+        padding: 5px;
+        text-align: right;
+        /* background-color: lightcyan; */
+    }
+
+    .save-btn,
+    .cancel-btn {
+        font-size: 15px;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    .save-btn {
+        margin-left: 5px;
+    }
+    .save-btn:hover {
+        background-color: lightgray;
+    }
+}
+
+/* pc */
+@media only screen and (min-width: 992px) {
+    .div-mini-container {
+        width: 55%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 10px;
+        border-radius: 10px;
+        /* background-color: gray; */
+        border: 1px solid lightgray;
+    }
+    .div-for-add-vehicle {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .divs {
+        width: 49.5%;
+        margin-bottom: 10px;
+        padding: 5px;
+        /* background-color: lightcyan; */
+    }
+    label,
+    .div-input,
+    input {
+        width: 100%;
+        padding: 5px;
+    }
+    input {
+        border-radius: 5px;
+        border: 1px solid lightgray;
+    }
+    input:focus {
+        border: 1px solid rgb(85, 78, 184);
+        box-shadow: 0 0px 1px 1.5px rgb(175, 179, 243);
+    }
+    .div-save {
+        width: 100%;
+        padding: 5px;
+        text-align: right;
+        /* background-color: lightcyan; */
+    }
+
+    .save-btn,
+    .cancel-btn {
+        font-size: 15px;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .save-btn {
+        margin-left: 5px;
+    }
+    .save-btn:hover,
+    .cancel-btn:hover {
+        background-color: rgb(24, 65, 202);
+    }
+}

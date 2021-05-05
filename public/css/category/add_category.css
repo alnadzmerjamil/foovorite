@@ -1,0 +1,194 @@
+main {
+    width: 98%;
+    min-height: 100vh;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+}
+h1 {
+    font-size: 25px;
+    padding: 20px 0;
+    text-align: center;
+}
+.mini-container-category {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+}
+
+/* DIVISION */
+.div-for-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+}
+.lbl-category {
+    margin-left: 5px;
+    font-size: 12px;
+}
+.div-input,
+.div-save-btn {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.ipt-category {
+    width: 100%;
+    padding: 5px;
+}
+.div-save-btn {
+    text-align: right;
+}
+.save-btn {
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(26, 63, 185);
+}
+
+/* DIVISION */
+.div-for-display-categories {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+}
+.div-all-categories-text {
+    width: 100%;
+    font-size: 12px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+.span-category {
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    main {
+        width: 70%;
+        padding: 10px;
+        margin: auto;
+    }
+    .mini-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    /* DIVISION */
+    .div-for-input {
+        width: 49.5%;
+        padding: 10px;
+        border: 1px solid white;
+    }
+    .lbl-category {
+        margin-left: 5px;
+    }
+    .div-input,
+    .div-save-btn {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        /* background-color: lightcyan; */
+    }
+    .ipt-category {
+        padding: 5px;
+    }
+    .save-btn {
+        padding: 5px 10px;
+    }
+
+    /* DIVISION */
+    .div-for-display-categories {
+        width: 49.5%;
+        padding: 10px;
+        border: 1px solid white;
+    }
+    .div-all-categories-text {
+        width: 100%;
+        padding: 5px 0;
+        margin-bottom: 10px;
+    }
+    .span-category {
+        display: inline-block;
+        padding: 5px;
+        background-color: lightgray;
+    }
+}
+
+/* pc */
+@media only screen and (min-width: 991px) {
+    main {
+        width: 50%;
+        min-height: 100vh;
+        padding: 10px;
+        margin: auto;
+        background-color: white;
+    }
+    h1 {
+        font-size: 25px;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .mini-container-category {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        border: 1px solid lightgray;
+        background-color: whitesmoke;
+    }
+
+    /* DIVISION */
+    .div-for-input {
+        width: 49.5%;
+        padding: 10px;
+        border: 1px solid white;
+    }
+    .lbl-category {
+        margin-left: 5px;
+    }
+    .div-input,
+    .div-save-btn {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        /* background-color: lightcyan; */
+    }
+    .ipt-category {
+        padding: 5px;
+    }
+    .save-btn {
+        padding: 5px 10px;
+    }
+    .save-btn:hover {
+        background-color: rgb(11, 11, 201);
+    }
+    /* DIVISION */
+    .div-for-display-categories {
+        width: 49.5%;
+        padding: 10px;
+        border: 1px solid white;
+    }
+    .div-all-categories-text {
+        width: 100%;
+        padding: 5px 0;
+        margin-bottom: 10px;
+    }
+    .span-category {
+        font-size: 13px;
+        display: inline-block;
+        padding: 5px;
+        background-color: lightgray;
+    }
+}

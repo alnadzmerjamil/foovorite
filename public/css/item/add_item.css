@@ -1,0 +1,508 @@
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+label,
+select,
+input {
+    width: 100%;
+    padding: 5px;
+}
+.mini-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+}
+
+.div-add-item {
+    width: calc(100% - 10px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+}
+.div-close-frm {
+    width: 100%;
+    text-align: right;
+    /* padding-bottom: 10px; */
+}
+#x-btn {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    color: gray;
+}
+#x-btn:hover {
+    color: darkgray;
+}
+select,
+.divs {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.div-save-btn,
+.div-update-btn {
+    margin-top: 10px;
+    text-align: right;
+}
+.save-btn,
+.update-btn {
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(29, 57, 216);
+}
+
+/* DIVISION */
+.div-add-item-btn {
+    width: 100%;
+    text-align: right;
+}
+#add-item-btn {
+    border-radius: 3px;
+    padding: 3px 7px;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(29, 57, 216);
+}
+.lbl-item-resto {
+    width: 100%;
+    text-align: center;
+}
+.div-display-items {
+    width: 100%;
+    justify-content: space-between;
+}
+.div-for-food-category,
+.div-for-drink-category,
+.div-for-dessert-category {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+
+.p-head-text {
+    width: 70%;
+}
+
+.div-per-item {
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+.div-edit-delete-item {
+    width: 100%;
+    text-align: right;
+}
+.div-edit-delete-item button {
+    font-size: 11px;
+    padding: 2px 3px;
+}
+.span-item-name {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.sml-resto-add {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 11px;
+}
+
+/* MODALS */
+.div-for-modal,
+.div-for-modal-comment {
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    display: none;
+    background-color: rgba(197, 197, 197, 0.5);
+}
+.div-modal {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: gray;
+}
+.p-confirm,
+.p-confirm-comment {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.div-cancel-delete,
+.div-cancel-delete-comment {
+    width: 80%;
+    text-align: right;
+}
+
+.modal-btn,
+.modal-btn-comment {
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+    background-color: gray;
+}
+
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: auto;
+    }
+    h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    label,
+    select,
+    input {
+        width: 100%;
+        padding: 5px;
+    }
+    .mini-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .div-add-item {
+        width: 65%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 10px;
+        transform: translate(-50%, -50%);
+    }
+    select,
+    .divs {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .div-close-frm {
+        width: 100%;
+        text-align: right;
+    }
+    #x-btn {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    .div-save-btn,
+    .div-update-btn {
+        text-align: right;
+        margin-top: 20px;
+    }
+    .save-btn,
+    .update-btn {
+        padding: 5px 10px;
+    }
+
+    /* DIVISION */
+    .div-display-items {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .div-for-food-category,
+    .div-for-drink-category,
+    .div-for-dessert-category {
+        width: 33%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+
+    .p-head-text {
+        width: 70%;
+    }
+
+    .div-per-item {
+        width: 100%;
+        display: block;
+        margin: 5px 0;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .div-edit-delete-item {
+        width: 100%;
+        text-align: right;
+    }
+    .div-edit-delete-item button {
+        font-size: 11px;
+        padding: 2px 3px;
+    }
+    .span-item-name {
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .sml-resto-add {
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+        font-size: 11px;
+    }
+
+    /* MODALS */
+    .div-for-modal,
+    .div-for-modal-comment {
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+        display: none;
+        background-color: rgba(197, 197, 197, 0.5);
+    }
+    .div-modal,
+    .div-modal-comment {
+        width: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 10px;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        background-color: gray;
+    }
+    .p-confirm,
+    .p-confirm-comment {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .div-cancel-delete,
+    .div-cancel-delete-comment {
+        width: 80%;
+        text-align: right;
+    }
+
+    .modal-btn,
+    .modal-btn-comment {
+        border: none;
+        outline: none;
+        padding: 2px 5px;
+        background-color: gray;
+    }
+}
+
+/* pc */
+@media only screen and (min-width: 992px) {
+    .main-container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: auto;
+    }
+    h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    label,
+    select,
+    input {
+        width: 100%;
+        padding: 5px;
+    }
+    .mini-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .div-add-item {
+        width: 34%;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        padding: 10px;
+        transform: translate(-50%, -50%);
+    }
+    select,
+    .divs {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .div-close-frm {
+        width: 100%;
+        text-align: right;
+    }
+    #x-btn {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    .div-save-btn,
+    .div-update-btn {
+        margin-top: 20px;
+        text-align: right;
+    }
+    .save-btn,
+    .update-btn {
+        padding: 5px 10px;
+    }
+
+    /* DIVISION */
+    .div-display-items {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .div-for-food-category,
+    .div-for-drink-category,
+    .div-for-dessert-category {
+        width: 33%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+
+    .p-head-text {
+        width: 70%;
+    }
+
+    .div-per-item {
+        width: 100%;
+        display: block;
+        margin: 5px 0;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .div-edit-delete-item {
+        width: 100%;
+        text-align: right;
+    }
+    .div-edit-delete-item button {
+        font-size: 11px;
+        padding: 2px 3px;
+    }
+    .span-item-name {
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .sml-resto-add {
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+        font-size: 11px;
+    }
+
+    /* MODALS */
+    .div-for-modal,
+    .div-for-modal-comment {
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+        display: none;
+        background-color: rgba(197, 197, 197, 0.5);
+    }
+    .div-modal,
+    .div-modal-comment {
+        width: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        padding: 10px;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        background-color: gray;
+    }
+    .p-confirm,
+    .p-confirm-comment {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .div-cancel-delete,
+    .div-cancel-delete-comment {
+        width: 80%;
+        text-align: right;
+    }
+
+    .modal-btn,
+    .modal-btn-comment {
+        border: none;
+        outline: none;
+        padding: 2px 5px;
+        background-color: gray;
+    }
+}
